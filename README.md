@@ -75,7 +75,7 @@ In this project, LangChain is used to:
 
 ---
 
-## 🧪 CI/CD Pipeline
+##  CI/CD Pipeline
 
 The CI/CD pipeline is fully automated using Jenkins:
 
@@ -158,7 +158,7 @@ However when running the CI/CD Pipeline, the pipeline couldn't find the AWS CLI.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Tobi Segun Oluwategbe**  
 AI / MLOps / DevOps Engineer  
