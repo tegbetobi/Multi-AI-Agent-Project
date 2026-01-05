@@ -52,12 +52,36 @@ In this project, LangChain is used to:
 ### Frontend
 - **Streamlit**
 
-### DevOps & Cloud
+### DevOps & Cloud Infrastructure
 - **Docker**
 - **Jenkins**
 - **SonarQube**
 - **AWS ECR**
 - **AWS ECS Fargate**
+
+---
+
+
+## Project Structure
+
+- `app/frontend/ui.py` — Frontend application (Streamlit)
+- `app/backend/api.py` — FastAPI to receive requests
+- `app/core/ai_agent.py` — Reasearch and Reasoning agent code
+- `app/main.py` — Main code which runs Frontend and Backend with the aid of threads
+- `app/common/custom_exception.py` -  Returning detailed error
+- `app/common/logger.py` - Logging actions
+- `app/config/settings.py` - Loading our Groq and Tavily keys as well as our allowed models
+- `custom_jenkins/Dockerfile` - Jenkins container Dockerfile
+
+---
+
+## Getting Started
+
+
+ **Local Development:**
+   - Clone this repository.
+   - Make sure to the `requirements.txt` file and install necessary libraries in order to run the app locally.
+   - Enter the command `python -m app.main` and wait for webpage to load
 
 ---
 
